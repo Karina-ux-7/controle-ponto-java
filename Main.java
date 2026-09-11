@@ -4,19 +4,19 @@ public class Main {
 
         System.out.println("Sistema de Controle de Ponto iniciado\n");
 
-        // Funcionário 1 - fez hora extra
-        Funcionario karina = new Funcionario("Karina", 8, 18);
+        // Funcionário A - fez hora extra
+        Funcionario funcionarioA = new Funcionario("Funcionario A", 8, 18);
 
-        // Funcionário 2 - saiu mais cedo
-        Funcionario eduardo = new Funcionario("Eduardo", 8, 15);
+        // Funcionário B - saiu mais cedo
+        Funcionario funcionarioB = new Funcionario("Funcionario B", 8, 15);
 
-        // Funcionário 3 - chegou atrasado
-        Funcionario rodrigo = new Funcionario("Rodrigo", 9, 17);
+        // Funcionário C - chegou atrasado
+        Funcionario funcionarioC = new Funcionario("Funcionario C", 9, 17);
 
         // Exibindo resumo de cada funcionário
-        karina.exibirResumo();
-        eduardo.exibirResumo();
-        rodrigo.exibirResumo();
+        funcionarioA.exibirResumo();
+        funcionarioB.exibirResumo();
+        funcionarioC.exibirResumo();
 
         System.out.println("Encerrando sistema...");
     }
